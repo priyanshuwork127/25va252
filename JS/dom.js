@@ -9,4 +9,5 @@ let paraBkg=document.getElementById('para');
 function colorChange(){
     paraBkg.style.backgroundColor="blue";
 }
+//add event listener
 paraBkg.addEventListener('mouseover',colorChange);
